@@ -339,6 +339,8 @@
         <module>ui</module>
         <module>security</module>
         <module>utilities</module>
+        <module>engine-ext</module>
+        <module>dbdialog</module>
       </modules>
     </profile>
     <profile>
