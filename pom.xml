@@ -328,7 +328,7 @@
       </modules>
     </profile>
     <profile>
-      <id>base</id>
+      <id>engine</id>
       <activation>
         <property>
           <name>!skipDefault</name>
@@ -336,10 +336,20 @@
       </activation>
       <modules>
         <module>engine</module>
-        <module>ui</module>
         <module>security</module>
-        <module>utilities</module>
         <module>engine-ext</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>base</id>
+      <activation>
+        <property>
+          <name>!skipDefault</name>
+        </property>
+      </activation>
+      <modules>
+        <module>ui</module>
+        <module>utilities</module>
         <module>dbdialog</module>
       </modules>
     </profile>
